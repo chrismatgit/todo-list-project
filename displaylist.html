@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="assets/mycss.css">
+	<link rel="stylesheet" type="text/css" href="assets/table.css">
+	<link rel="stylesheet" type="text/css" href="assets/Registration_form.css">
+</head>
+<body>
+	<header>
+		<h1>TODO PROJECT</h1>
+		<h3>DASHBOARD</h3>
+	</header>
+	<ul>
+        <li><a href="dashboard.html">Create a list</a></li>
+        <li><a href="additem.html">Add items</a></li>
+        <li><a href="removeitem.html">Remove Items</a></li>
+        <li><a href="displaylist.html">Display list</a></li>
+    </ul>
+	<div class="main_content">
+		<form class="registration_form">
+			<!-- register with email div -->
+			<div class="registration_layout">
+				<!-- div for registration form with its background color -->
+				
+			    <div class="registration_layout_bgcolor"> 
+						<!-- div for title row -->
+						<div class=".registration_layout .form_row_title">
+							<h1> Display Plan on the todo-list</h1>
+						</div><br>
+						<div class="">
+							<table id="mytable">
+								<tr>
+								    <th>Plan Name</th>
+								    <th>Description</th>
+								    <th>Time</th>
+								    <th>Date</th>
+								    <th>Finished</th>
+
+								</tr>
+								<tr>
+								    <td>sport</td>
+								    <td>running 2 miles</td>
+								    <td>06:00 am</td>
+								    <td>15/09/2018</td>
+								    <td><input type="checkbox" name="checkbox" class="checkbox_plan"></td>
+								    
+								</tr>
+								<tr>
+								    <td>shoping</td>
+								    <td>manuel task</td>
+								    <td>4:00 pm</td>
+								    <td>15/09/2018</td>
+								    <td><input type="checkbox" name="checkbox" class="checkbox_plan"></td>
+								</tr>
+								<tr>
+								    <td>work</td>
+								    <td>manuel task</td>
+								    <td>7:00 pm</td>
+								    <td>15/09/2018</td>
+								    <td><input type="checkbox" name="checkbox" class="checkbox_plan"></td>
+								</tr>
+							</table>
+
+							<div>
+								<button type="submit"><a href="#">Confirm</a></button>
+							</div><br>
+
+						</div>
+					
+				</div>
+
+
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

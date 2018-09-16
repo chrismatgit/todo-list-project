@@ -1,0 +1,35 @@
+#mytable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#mytable td, #mytable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#mytable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#mytable tr:hover {
+    background-color: #ddd;
+}
+
+#mytable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #66CDAA;
+    color: white;
+}
+#mytable .checkbox_plan{
+    display: inline-flex;
+    width: .8em;
+    height: .8em;
+    border: 2px inset #ccc;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
