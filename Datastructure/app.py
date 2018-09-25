@@ -42,19 +42,19 @@ if __name__ == "__main__":
 #Write code that implements the selected option
 
         if selection == '1':
-            if len(todo_list) < 1:
+            #if len(todo_list) < 1:
                 # for a in range(1):
-                title = raw_input("Enter title: ")
-                description = raw_input("Enter desciption: ")
-                state = raw_input("Enter state to mark it as finished(finished): ")
-                if title =='':
-                    print("task cannot be empty")
-                if description =='':
-                    print("description cannot be empty") 
-                if state == '':
-                    print("state cannot")
-                else:
-                    create_task(title)
+            title = raw_input("Enter title: ")
+            description = raw_input("Enter desciption: ")
+            state = raw_input("Enter state to mark it as finished(finished): ")
+               if title =='':
+                  print("task cannot be empty")
+               if description =='':
+                  print("description cannot be empty") 
+               if state == '':
+                  print("state cannot")
+               else:
+                  create_task(title)
 
                 
               
