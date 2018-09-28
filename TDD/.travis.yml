@@ -1,14 +1,16 @@
 language: python
 
 python:
-  -"3.6"
+  - "3.6"      
+  - "3.7"
 
 install:
-   pip install -r requirements.txt
+   - "pip install -r requirements.txt"
 
 script:
-  -nosetests --with-coverage --cover-tests
-  -coverage report
+  - pytest      
+  - nosetests --with-coverage --cover-tests
+  - coverage report
 
 after_success:
-  -coveralls
+  - coveralls
