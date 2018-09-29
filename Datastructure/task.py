@@ -17,7 +17,6 @@ def print_tasks(task):
             'title': 'given title',
             'description': 'given description',
             'state':'finished'
-
         }
 # Write a function creates a task
 def create_task(task):
@@ -52,17 +51,11 @@ def delete_task(task):
                 return True
                 
 # Write a function that marks a task finished
-
 def mark_as_finished(task):
-
     """
-
     Append the string label '[finished]' at the end of the task 
-
     if it does not already have the label appended.
-
     It should remain in the todo_list
-
     """
     key = 0
     found = False
@@ -78,14 +71,10 @@ def mark_as_finished(task):
     else:
         print_tasks(task)
 
-
 # Write a function deletes all tasks
 def delete_all_tasks():
-
     """
-
     Empty the the todo_lsit
-
     """
     for i in todo_list:
        todo_list.remove(i)
